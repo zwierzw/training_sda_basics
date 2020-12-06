@@ -6,5 +6,8 @@ public class Main {
         SportCar sportCar = new SportCar("Opel", "Corsa", "red", 2, engine);
 
         System.out.println(sportCar.loudBrumBrumBrum());
+
+        SportCar sportCar2 = new SportCar("Ford", "Focus", "grey", engine);
+        System.out.println(sportCar2.toString());
     }
 }
